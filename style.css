@@ -1,6 +1,6 @@
-head{
-    padding: 0px;
-    margin: 0px;
+*{
+    padding: 5px;
+    margin: 5px;
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
     font-size: 25px;
 }
 body{
-    background-color: black;
+    background-color: rgb(127, 95, 133);
 }
  p{
     margin-left: 20px;
