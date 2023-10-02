@@ -2,6 +2,11 @@
     padding: 5px;
     margin: 5px;
 }
+/*header*/
+
+header{
+    background-color: rgba(43, 23, 51, 0.349);
+}
 
 h1{
     color: #22133dd7;
@@ -11,11 +16,41 @@ h1{
     text-transform: uppercase;
 }
 h6{
+    color: #22133dd7;
     text-align: center;
     text-shadow: 0ch;
     font-size: 25px;
     text-transform: uppercase;
 }
+.cabecalho{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+#logo:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+nav{
+    position: absolute;
+    top: 90px;
+    left: -100;
+}
+
+nav li{
+    display: inline;
+    margin-left: 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 body{
     background-color: rgb(127, 95, 133);
 }
