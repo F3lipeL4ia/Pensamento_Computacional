@@ -8,6 +8,13 @@ h1{
     text-align: right;
     text-shadow: 0ch;
     font-size: 25px;
+    text-transform: uppercase;
+}
+h6{
+    text-align: center;
+    text-shadow: 0ch;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 body{
     background-color: rgb(127, 95, 133);
