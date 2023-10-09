@@ -44,12 +44,30 @@ nav li{
     margin-left: 15px;
 }
 
+nav a:hover{
+    transition: 0.2s;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+
 nav a{
     text-transform: uppercase;
     color: black;
     font-size: 20px;
     text-decoration: none;
 }
+/*finm do head*/
+
+
+.titulo-principal{
+    color: rgba(46, 11, 22, 0.815);
+    text-align: center;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+
 
 body{
     background-color: rgb(127, 95, 133);
