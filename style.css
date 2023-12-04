@@ -1,27 +1,14 @@
 *{
-    padding: 5px;
-    margin: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 /*header*/
 
 header{
-    background-color: rgba(43, 23, 51, 0.349);
+ background: linear-gradient(#f0f0f0,#c0c0c0);
+ padding-top: 15px;
 }
 
-h1{
-    color: #22133dd7;
-    text-align: right;
-    text-shadow: 0ch;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-h6{
-    color: #22133dd7;
-    text-align: center;
-    text-shadow: 0ch;
-    font-size: 25px;
-    text-transform: uppercase;
-}
 .cabecalho{
     position: relative;
     width: 940px;
@@ -35,8 +22,8 @@ h6{
 
 nav{
     position: absolute;
-    top: 90px;
-    left: -100;
+    top:110px;
+    right: 0;
 }
 
 nav li{
@@ -46,73 +33,151 @@ nav li{
 
 nav a:hover{
     transition: 0.2s;
-    color: rgb(255, 255, 255);
+    color:#473e3b;
     text-decoration: underline;
 }
 
-
-nav a{
+nav a {
     text-transform: uppercase;
-    color: black;
-    font-size: 20px;
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
     text-decoration: none;
 }
-/*finm do head*/
 
+#banner{
+    width: 100%;
+    height: auto;
+}
+
+#utensilios{
+    width: 220px;
+    height: 220px;
+    float: left;
+    margin: auto 15px 15px auto;
+    border: 1px solid #473e3b;
+}
+
+#utensilios:hover{
+    transition: 0.5s;
+    box-shadow: 3px 3px 2px #473e3b;
+    opacity: 75%;
+}
+
+.localizacao{
+    padding: 3rem 0;
+}
+
+.localizacao p{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.mapa{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.beneficios{
+    padding: 3em 0;
+}
+
+.conteudo-beneficios{
+    width: 640px;
+    margin: 10px auto;
+}
+
+.lista-beneficios{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens{
+    line-height: 1.2;
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.itens:before {
+    font-weight: bold;
+    content: "\2730 ";
+}
+
+#imagem-beneficios{
+    opacity: 75%;
+    width: 54.2%;
+    height: auto;
+}
+
+#imagem-beneficios:hover {
+    transition: 0.5s;
+    opacity: 100%;
+    box-shadow: 10px 12px 5px #473e3b;
+}
+
+.videos{
+    width: 560px;
+    margin: 3rem auto;
+}
+
+/*fim do header*/   
 
 .titulo-principal{
-    color: rgb(32, 32, 32);
+    color:rgb(129, 119, 139);
     text-align: center;
     font-size: 32px;
     text-transform: uppercase;
 }
 
-
-
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: #f0f0f0;
+    
 }
- p{
+
+p{
     margin-left: 20px;
     font-size: 25px;
     text-align: justify;
-    }
-    h2,h3{
-        text-align: center;
-        font-size: 30px;
-        text-transform: uppercase;
-    }
-    iframe{
-        margin-left: 500px;
-    }
-    li{
-        margin-left: 40px;
-        text-transform: uppercase;
-        font-size: 25px;
-    }
+}
 
-    /*footer*/
+h2,h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ iframe{
+    margin-left: 500px;
+ }
+ li{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 25px;
+ }
 
-    footer{
-        text-align: center;
-        background-image: url(bg.jpg);
-        padding: 15px 0px;
+ /*footer*/
 
-    }
+ footer{
+    text-align: center;
+    background-image: url(bg.jpg);
+    padding: 15px 0px;
+ }
 
-    .redes a{
-        margin: 0 10px;
-        text-decoration: none;
-    }
+ .redes a{
+    margin: 0 10px;
+    text-decoration: none;
+ }
 
-    .redes img:hover{
-        transition: 0.5s;
-        transform: scale(1.1);
-        opacity: 30%;
-    }
+ .redes img:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity:60%;
+ }
 
-    .copyright{
-        font-size: 13px;
-        color: aliceblue;
-        margin-top: 15px;
-    }
+ .copyright{
+    font-size: 13px;
+    color: white;
+    margin-top: 15px;
+ }
